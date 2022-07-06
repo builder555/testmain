@@ -1,0 +1,3 @@
+[submodule "testdependent"]
+	path = testdependent
+	url = https://github.com/builder555/testdependent.git
