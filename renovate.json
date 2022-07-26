@@ -4,5 +4,19 @@
   ],
   "git-submodules": {
     "enabled": true
-  }
+  },
+  "packageRules": [
+    {
+      "matchPackagePatterns": ["*"],
+      "enabled": false
+    },
+    {
+      "matchManagers": ["git-submodules"],
+      "automerge": true
+    },
+    {
+      "matchManagers": ["regex"],
+      "automerge": true
+    }
+  ]  
 }
