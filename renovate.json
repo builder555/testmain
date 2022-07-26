@@ -3,12 +3,7 @@
   "extends": [
     "config:base"
   ],
-  "commitMessagePrefix": "Update",
-  "commitMessageAction": "",
-  "commitMessageTopic": "{{depName}}",
-  "commitBody": "Update {{depName}}\nChangelog-entry: Update {{depName}} to {{newDigest}}",
   "prHourlyLimit": 0,
-  "pruneStaleBranches": false,
   "labels": ["dependencies"],
   "git-submodules": {
     "enabled": true
