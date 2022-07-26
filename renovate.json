@@ -1,8 +1,7 @@
 {
   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
   "extends": [
-    "config:base",
-    ":semanticCommitsDisabled"
+    "config:base"
   ],
   "commitMessagePrefix": "Update",
   "commitMessageAction": "",
@@ -16,15 +15,6 @@
   },
   "packageRules": [
     {
-      "matchPackagePatterns": ["*"],
-      "enabled": false
-    },
-    {
-      "matchManagers": ["git-submodules"],
-      "automerge": true
-    },
-    {
-      "matchManagers": ["regex"],
-      "automerge": true
+      "matchManagers": ["git-submodules"]
     }
   ]}
