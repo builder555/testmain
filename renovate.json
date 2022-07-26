@@ -1,22 +1,5 @@
 {
-  "extends": [
-    "config:base",
-    ":semanticCommitsDisabled"
-  ],
-  "branchPrefix": "gh-renovate/",
-  "allowPostUpgradeCommandTemplating": true,
-  "allowedPostUpgradeCommands": [
-    "^sed"
-  ],
-  "platform": "github",
-  "prHourlyLimit": 0,
-  "onboarding": false,
-  "requireConfig": false,
-  "autodiscover": true,
-  "rebaseWhen": "behind-base-branch",
-  "automerge": false,
-  "labels": [
-    "renovate"
-  ],
-  "printConfig": true
+  "git-submodules": {
+    "enabled": true
+  }
 }
