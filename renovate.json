@@ -3,9 +3,6 @@
     "config:base",
     ":semanticCommitsDisabled"
   ],
-  "git-submodules": {
-    "enabled": true
-  },
   "branchPrefix": "gh-renovate/",
   "allowPostUpgradeCommandTemplating": true,
   "allowedPostUpgradeCommands": [
