@@ -12,9 +12,5 @@
   "labels": ["dependencies"],
   "git-submodules": {
     "enabled": true
-  },
-  "packageRules": [
-    {
-      "matchManagers": ["git-submodules"]
-    }
-  ]}
+  }
+}
